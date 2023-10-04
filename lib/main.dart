@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
               useMaterial3: true,
             ),
 
+// <<<<<<< HEAD
             // home:const HomeScreen(),
             // home:const LoginScreen(),
             // home:const ReportsScreen() ,
@@ -35,6 +36,18 @@ class MyApp extends StatelessWidget {
             // home:const SettingsScreen(),
             //  home:const UsersScreen(),
             home: const TasksScreen(),
+// =======
+//            // home:const HomeScreen(),
+//           // home:const LoginScreen(),
+//           home:const ReportsScreen() ,
+//         //  home:const ChangePassword() ,
+
+            // home:const SettingsScreen(),
+          //  home:const UsersScreen(),
+          //  home:const TasksScreen(),
+          
+
+// >>>>>>> 3d1faee3430a0927b66af0df11128f8723c9373f
           );
         });
   }
