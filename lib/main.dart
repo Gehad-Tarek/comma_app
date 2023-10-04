@@ -1,9 +1,10 @@
-// import 'package:comma_app/home_screen.dart';
+import 'package:comma_app/screens/Reports_screen/Reports_screen.dart';
+import 'package:comma_app/screens/Tasks_screen/Tasks_screen.dart';
+import 'package:comma_app/screens/Users_screen/Users_screen.dart';
+import 'package:comma_app/screens/login_screen/login_screen.dart';
 import 'package:comma_app/screens/settings_screen/settings_screen.dart';
-import 'package:comma_app/screens/tasks_screen/tasks_screen.dart';
-import 'package:comma_app/screens/users_screen/users_screen.dart';
-import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,9 +24,16 @@ class MyApp extends StatelessWidget {
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
               useMaterial3: true,
             ),
-            // home: SettingsScreen(),
-            // home: UsersScreen(),
-            home: TasksScreen(),
+
+            //home:const HomeScreen(),
+           // home:const LoginScreen(),
+          //  home:const ReportsScreen() ,
+          
+            // home:const SettingsScreen(),
+           //  home:const UsersScreen(),
+           // home:const TasksScreen(),
+          
+
           );
         });
   }
