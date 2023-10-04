@@ -1,5 +1,6 @@
 // import 'package:comma_app/home_screen.dart';
 import 'package:comma_app/screens/settings_screen/settings_screen.dart';
+import 'package:comma_app/screens/tasks_screen/tasks_screen.dart';
 import 'package:comma_app/screens/users_screen/users_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
               useMaterial3: true,
             ),
             // home: SettingsScreen(),
-            home: UsersScreen(),
+            // home: UsersScreen(),
+            home: TasksScreen(),
           );
         });
   }

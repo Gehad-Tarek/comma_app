@@ -55,14 +55,14 @@ class UsersScreen extends StatelessWidget {
                           const Text(
                             "Nourhan Abd EL fattah",
                             style: TextStyle(
-                              fontSize: 15,
+                              fontSize: 14,
                             ),
                           ),
                           TextButton(
                             child: const Text(
                               "Edit",
                               style: TextStyle(
-                                fontSize: 16,
+                                fontSize: 15,
                               ),
                             ),
                             onPressed: () {},
