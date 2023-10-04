@@ -27,16 +27,14 @@ class MyApp extends StatelessWidget {
               useMaterial3: true,
             ),
 
-           // home:const HomeScreen(),
-          // home:const LoginScreen(),
-          // home:const ReportsScreen() ,
-        //  home:const ChangePassword() ,
+            // home:const HomeScreen(),
+            // home:const LoginScreen(),
+            // home:const ReportsScreen() ,
+            //  home:const ChangePassword() ,
 
             // home:const SettingsScreen(),
-          //  home:const UsersScreen(),
-            home:const TasksScreen(),
-          
-
+            //  home:const UsersScreen(),
+            home: const TasksScreen(),
           );
         });
   }

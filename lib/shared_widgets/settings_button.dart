@@ -8,6 +8,7 @@ class SettingsButton extends StatelessWidget {
 
   SettingsButton(this.icon1, this.icon2, this.name, this.onPressed, {Key? key})
       : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -37,13 +38,11 @@ class SettingsButton extends StatelessWidget {
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-
                   ],
                 ),
                 IconButton(
                   onPressed: () {},
-
-                  icon:  Icon(
+                  icon: Icon(
                     Icons.arrow_forward_ios,
                     color: Colors.blue[600],
                   ),

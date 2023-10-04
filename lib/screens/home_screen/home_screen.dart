@@ -8,7 +8,6 @@ import 'package:comma_app/screens/home_screen/home_screen_data.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -52,6 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
       color: Colors.blue[600],
     ),
   ];
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     IconButton(
                       onPressed: () {},
-                      icon:const Icon(
+                      icon: const Icon(
                         Icons.notifications,
                       ),
                       color: Colors.blue,

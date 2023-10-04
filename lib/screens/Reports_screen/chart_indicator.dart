@@ -9,6 +9,7 @@ class Indicator extends StatelessWidget {
     this.size = 16,
     this.textColor = const Color(0xff505050),
   });
+
   final Color color;
   final String text;
   final bool isSquare;
@@ -19,7 +20,6 @@ class Indicator extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(left: 100),
-      
       child: Row(
         children: <Widget>[
           Container(

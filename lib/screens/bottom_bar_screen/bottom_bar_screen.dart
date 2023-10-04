@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
+import '../home_screen/home_screen.dart';
 import '../settings_screen/settings_screen.dart';
 
 
@@ -18,7 +19,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
   @override
   Widget build(BuildContext context) {
     final screens = [
-      // const HomeScreen(),
+      const HomeScreen(),
       const SettingsScreen(),
     ];
     return Scaffold(
