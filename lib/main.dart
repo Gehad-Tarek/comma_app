@@ -1,6 +1,7 @@
 import 'package:comma_app/screens/Reports_screen/Reports_screen.dart';
 import 'package:comma_app/screens/Tasks_screen/Tasks_screen.dart';
 import 'package:comma_app/screens/Users_screen/Users_screen.dart';
+import 'package:comma_app/screens/bottom_bar_screen/bottom_bar_screen.dart';
 import 'package:comma_app/screens/change_password_screen/change_password.dart';
 import 'package:comma_app/screens/home_screen/home_screen.dart';
 import 'package:comma_app/screens/login_screen/login_screen.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
               useMaterial3: true,
             ),
 
-// <<<<<<< HEAD
+
             // home:const HomeScreen(),
             // home:const LoginScreen(),
             // home:const ReportsScreen() ,
@@ -35,19 +36,12 @@ class MyApp extends StatelessWidget {
 
             // home:const SettingsScreen(),
             //  home:const UsersScreen(),
-            home: const TasksScreen(),
-// =======
-//            // home:const HomeScreen(),
-//           // home:const LoginScreen(),
-//           home:const ReportsScreen() ,
-//         //  home:const ChangePassword() ,
+           // home: const TasksScreen(),
+           home:  const BottomBarScreen(),
 
-            // home:const SettingsScreen(),
-          //  home:const UsersScreen(),
-          //  home:const TasksScreen(),
           
 
-// >>>>>>> 3d1faee3430a0927b66af0df11128f8723c9373f
+
           );
         });
   }
