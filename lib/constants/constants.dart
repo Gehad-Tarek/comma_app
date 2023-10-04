@@ -10,7 +10,7 @@ class Constants {
   static final kGreenLightColor = Color(0xff13D38E);
   static final kRedColor = Color(0xffD31343);
   static final kYellowColor = Color(0xffF8B250);
-  static final kPuplueColor = Color(0xff845BEF);
+  static final kPurpleColor = Color(0xff845BEF);
   static final kBlackColor = Color(0xff1D1B1E);
   
 
