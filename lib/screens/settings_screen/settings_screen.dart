@@ -58,12 +58,12 @@ class SettingsScreen extends StatelessWidget {
               "Change Email",
               () {},
             ),
-            SettingsButton(
-              Icons.language_outlined,
-              Icons.language_outlined,
-              "Change Language",
-              () {},
-            ),
+            // SettingsButton(
+            //   Icons.language_outlined,
+            //   Icons.language_outlined,
+            //   "Change Language",
+            //   () {},
+            // ),
             SettingsButton(
               Icons.back_hand,
               Icons.arrow_forward_ios,

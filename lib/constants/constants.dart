@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class Constants {
   ///color
+  static final kBlueNewLogoColor = Color(0xff0080FB);
   static final kMaintBlueColor = Color(0xff7FD0F0);
   static final kBlueLightColor = Color(0xff358ACD);
   //static final kBlueNormalColor = Color(0xff0293EE);
@@ -16,4 +17,6 @@ class Constants {
 
   ///images
   static final kLogoImage = 'assets/images/logo.png';
+  static final kPhoneImages = 'assets/images/phone.png';
+  static final kWhatsAppImages = 'assets/images/whatsApp.png';
 }
