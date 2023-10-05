@@ -5,6 +5,7 @@ import 'package:comma_app/screens/bottom_bar_screen/bottom_bar_screen.dart';
 import 'package:comma_app/screens/change_password_screen/change_password.dart';
 import 'package:comma_app/screens/home_screen/home_screen.dart';
 import 'package:comma_app/screens/login_screen/login_screen.dart';
+import 'package:comma_app/screens/mange_user_screen/mange_user_screen.dart';
 import 'package:comma_app/screens/settings_screen/settings_screen.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
@@ -32,9 +33,10 @@ class MyApp extends StatelessWidget {
            // home: const LoginScreen(),
             //   home:const ReportsScreen() ,
             //  home:const ChangePassword() ,
+            home:const MangeUserScreen() ,
 
             // home:const SettingsScreen(),
-             home:const UsersScreen(),
+             //home:const UsersScreen(),
             //  home: const TasksScreen(),
             // home:  const BottomBarScreen(),
           );
