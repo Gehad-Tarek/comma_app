@@ -1,3 +1,4 @@
+import 'package:comma_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -39,7 +40,7 @@ class _TasksScreenState extends State<TasksScreen> {
                       "Contact Us",
                       style: TextStyle(
                           fontSize: 24,
-                          color: Colors.blue[900],
+                          color:  Constants.kBlueNewLogoColor,
                           fontWeight: FontWeight.w600),
                     ),
                   ),
@@ -50,7 +51,7 @@ class _TasksScreenState extends State<TasksScreen> {
                     "  Hello, we here to fix your problem",
                     style: TextStyle(
                       fontSize: 19,
-                      color: Colors.blue[900],
+                      color:   Constants.kBlueNewLogoColor,
                     ),
                   ),
                   const SizedBox(
@@ -60,7 +61,7 @@ class _TasksScreenState extends State<TasksScreen> {
                     "  Few seconds and you will got response",
                     style: TextStyle(
                       fontSize: 19,
-                      color: Colors.blue[900],
+                      color: Constants.kBlueNewLogoColor,
                     ),
                   ),
                 ],
@@ -75,16 +76,16 @@ class _TasksScreenState extends State<TasksScreen> {
                 TextField(
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
-                      borderSide: const BorderSide(
+                      borderSide:  BorderSide(
                         width: 1,
-                        color: Colors.blue,
+                        color: Constants.kBlueNewLogoColor,
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     focusedBorder: OutlineInputBorder(
-                      borderSide: const BorderSide(
+                      borderSide:  BorderSide(
                         width: 3,
-                        color: Colors.blue,
+                         color: Constants.kBlueNewLogoColor,
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
@@ -111,9 +112,9 @@ class _TasksScreenState extends State<TasksScreen> {
                   maxLines: 10,
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
-                      borderSide: const BorderSide(
+                      borderSide:  BorderSide(
                         width: 1,
-                        color: Colors.blue,
+                         color: Constants.kBlueNewLogoColor,
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
@@ -219,7 +220,7 @@ class _TasksScreenState extends State<TasksScreen> {
                         // provider.sendTask();
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.blue[400],
+                        backgroundColor:  Constants.kBlueNewLogoColor,
                         elevation: 5,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(

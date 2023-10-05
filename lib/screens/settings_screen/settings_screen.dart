@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../shared_widgets/settings_button.dart';
+import '../../shared/shared_widgets/settings_button.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});

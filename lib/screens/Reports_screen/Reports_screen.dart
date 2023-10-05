@@ -1,3 +1,4 @@
+import 'package:comma_app/constants/constants.dart';
 import 'package:comma_app/screens/Reports_screen/chart_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
@@ -28,9 +29,9 @@ class ReportsScreenState extends State {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
-        title: const Text(
+        title:  Text(
           "Campain Report",
-          style: TextStyle(color: Colors.blue),
+          style: TextStyle(color:   Constants.kBlueNewLogoColor,),
         ),
         backgroundColor: Colors.white,
       ),
@@ -218,45 +219,45 @@ class ReportsScreenState extends State {
                       top: 52,
                     ),
                     child: Column(
-                      children: const <Widget>[
+                      children:  <Widget>[
                         Indicator(
-                          color: Color(0xff0293ee),
+                          color:   Constants.kBlueNewLogoColor,
                           text: 'follow up',
                           isSquare: true,
                         ),
-                        SizedBox(
+                       const SizedBox(
                           height: 4,
                         ),
-                        Indicator(
+                      const  Indicator(
                           color: Color(0xfff8b250),
                           text: 'leading',
                           isSquare: true,
                         ),
-                        SizedBox(
+                     const   SizedBox(
                           height: 4,
                         ),
-                        Indicator(
+                   const     Indicator(
                           color: Color(0xff13d38e),
                           text: 'meeting',
                           isSquare: true,
                         ),
-                        Indicator(
+                      const  Indicator(
                           color: Color(0xff845bef),
                           text: 'not intersted',
                           isSquare: true,
                         ),
-                        SizedBox(
+                       const SizedBox(
                           height: 4,
                         ),
-                        Indicator(
+                    const    Indicator(
                           color: Color(0xff13d38e),
                           text: 'no answer',
                           isSquare: true,
                         ),
-                        SizedBox(
+                  const      SizedBox(
                           height: 4,
                         ),
-                        Indicator(
+                     const   Indicator(
                           color: Color.fromARGB(255, 10, 116, 52),
                           text: 'done',
                           isSquare: true,
@@ -284,7 +285,7 @@ class ReportsScreenState extends State {
       switch (i) {
         case 0:
           return PieChartSectionData(
-            color: const Color(0xff0293ee),
+            color:  Constants.kBlueNewLogoColor,
             value: 15,
             title: '15%',
             radius: radius,
