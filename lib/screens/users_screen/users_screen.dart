@@ -1,3 +1,4 @@
+import 'package:comma_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class UsersScreen extends StatelessWidget {
@@ -10,9 +11,9 @@ class UsersScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
-        title: const Text(
+        title:  Text(
           "Sales Men",
-          style: TextStyle(color: Colors.blue),
+          style: TextStyle(color: Constants.kBlueNewLogoColor,),
         ),
         backgroundColor: Colors.white,
       ),
@@ -59,10 +60,11 @@ class UsersScreen extends StatelessWidget {
                             ),
                           ),
                           TextButton(
-                            child: const Text(
+                            child:  Text(
                               "Edit",
                               style: TextStyle(
                                 fontSize: 15,
+                                color:   Constants.kBlueNewLogoColor,
                               ),
                             ),
                             onPressed: () {},
@@ -128,7 +130,7 @@ class UsersScreen extends StatelessWidget {
                       ),
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.blue[300],
+                        backgroundColor:  Constants.kBlueNewLogoColor,
                         elevation: 5,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(

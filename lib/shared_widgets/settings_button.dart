@@ -1,3 +1,4 @@
+import 'package:comma_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class SettingsButton extends StatelessWidget {
@@ -25,7 +26,7 @@ class SettingsButton extends StatelessWidget {
                   children: [
                     Icon(
                       icon1,
-                      color: Colors.blue[600],
+                      color:  Constants.kBlueNewLogoColor,
                       size: 22,
                     ),
                     SizedBox(
@@ -44,7 +45,7 @@ class SettingsButton extends StatelessWidget {
                   onPressed: () {},
                   icon: Icon(
                     Icons.arrow_forward_ios,
-                    color: Colors.blue[600],
+                    color:  Constants.kBlueNewLogoColor,
                   ),
                 ),
               ],

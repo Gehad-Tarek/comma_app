@@ -1,3 +1,4 @@
+import 'package:comma_app/constants/constants.dart';
 import 'package:comma_app/screens/Leads_Screen/Leads_screen.dart';
 import 'package:comma_app/screens/Reports_screen/Reports_screen.dart';
 import 'package:comma_app/screens/Requests_screen/Requests_screen.dart';
@@ -27,28 +28,28 @@ class _HomeScreenState extends State<HomeScreen> {
   final icons = [
     Icon(
       Icons.contact_page,
-      color: Colors.blue[600],
+      color: Constants.kBlueNewLogoColor,
     ),
     Icon(
       FontAwesomeIcons.fileCircleCheck,
-      color: Colors.blue[600],
+      color: Constants.kBlueNewLogoColor,
     ),
     Icon(
       Icons.textsms_sharp,
-      color: Colors.blue[600],
+       color: Constants.kBlueNewLogoColor,
       size: 28,
     ),
     Icon(
       Icons.support_agent,
-      color: Colors.blue[600],
+      color: Constants.kBlueNewLogoColor,
     ),
     Icon(
       FontAwesomeIcons.users,
-      color: Colors.blue[600],
+       color: Constants.kBlueNewLogoColor,
     ),
     Icon(
       FontAwesomeIcons.personShelter,
-      color: Colors.blue[600],
+       color: Constants.kBlueNewLogoColor,
     ),
   ];
 
@@ -72,13 +73,20 @@ class _HomeScreenState extends State<HomeScreen> {
                       icon: const Icon(
                         Icons.notifications,
                       ),
-                      color: Colors.blue,
+                      color:  Constants.kBlueNewLogoColor,
                       iconSize: 40,
                     ),
-                    Center(
-                      child: Image.asset(
-                        "assets/images/logo.png",
-                        scale: .5,
+                    SizedBox(
+                      // fit: BoxFit.fill,
+                      width:MediaQuery.of(context).size.width,
+                      height: MediaQuery.of(context).size.height,
+                      child: Center(
+                        child: Image.asset(
+                          "assets/images/logo comma-01.png",
+                          fit: BoxFit.fitWidth,
+                          scale: .5,
+                        // height: MediaQuery.of(context).size.height*0.99
+                        ),
                       ),
                     ),
                   ],

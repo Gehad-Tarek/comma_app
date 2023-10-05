@@ -1,3 +1,4 @@
+import 'package:comma_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 //import '../providers/change_password.dart';
@@ -50,9 +51,9 @@ class _ChangePasswordState extends State<ChangePassword> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Text(
+                             const Text(
                                 "Change Your Password",
-                                style: const TextStyle(
+                                style: TextStyle(
                                   fontSize: 18,
                                 ),
                               ),
@@ -235,12 +236,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                                 height: 50,
                                 child: TextButton(
                                   style: TextButton.styleFrom(
-                                    backgroundColor: const Color.fromRGBO(
-                                      48,
-                                      144,
-                                      206,
-                                      1,
-                                    ),
+                                    backgroundColor:  Constants.kBlueNewLogoColor,
                                   ),
                                   child: const Text(
                                     'Confirm',

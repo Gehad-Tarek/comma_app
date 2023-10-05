@@ -1,3 +1,4 @@
+import 'package:comma_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -38,7 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: [
                     Center(
                         child: Image.asset(
-                      "assets/images/logo.png",
+                      "assets/images/logo comma-01.png",
                       scale: 3.5,
                     )),
                     Form(
@@ -58,7 +59,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             },
                             cursorColor: Colors.black,
                             style: TextStyle(
-                              color: Colors.blue[600],
+                              color:   Constants.kBlueNewLogoColor,
                             ),
                             textInputAction: TextInputAction.next,
                             decoration: InputDecoration(
@@ -73,7 +74,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               hintText: 'Email Address',
                               prefixIcon: Icon(
                                 Icons.email,
-                                color: Colors.blue[700],
+                                color:   Constants.kBlueNewLogoColor,
                               ),
                               hintStyle: const TextStyle(
                                 color: Colors.black54,
@@ -95,7 +96,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             },
                             cursorColor: Colors.black,
                             style: TextStyle(
-                              color: Colors.blue[600],
+                               color: Constants.kBlueNewLogoColor,
                             ),
                             textInputAction: TextInputAction.done,
                             obscureText: true,
@@ -111,7 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               hintText: 'Password',
                               prefixIcon: Icon(
                                 Icons.lock,
-                                color: Colors.blue[700],
+                                color: Constants.kBlueNewLogoColor,
                               ),
                               hintStyle: const TextStyle(
                                 color: Colors.black54,
@@ -130,7 +131,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: TextButton(
                         style: TextButton.styleFrom(
                           backgroundColor:
-                              const Color.fromRGBO(48, 144, 206, 1),
+                              Constants.kBlueNewLogoColor,
                         ),
                         child: const Text(
                           'Login',
