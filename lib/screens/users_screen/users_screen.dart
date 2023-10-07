@@ -1,5 +1,5 @@
-import 'package:comma_app/constants/constants.dart';
-import 'package:comma_app/screens/mange_user_screen/mange_user_screen.dart';
+import '../../constants/constants.dart';
+import '../mange_user_screen/mange_user_screen.dart';
 import 'package:flutter/material.dart';
 
 class UsersScreen extends StatelessWidget {

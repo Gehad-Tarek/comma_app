@@ -1,7 +1,7 @@
-import 'package:comma_app/constants/constants.dart';
-import 'package:comma_app/screens/mange_user_screen/section_change_password.dart';
-import 'package:comma_app/screens/mange_user_screen/section_information.dart';
-import 'package:comma_app/shared/shared_widgets/field_components.dart';
+import '../../constants/constants.dart';
+import 'section_change_password.dart';
+import 'section_information.dart';
+import '../../shared/shared_widgets/field_components.dart';
 import 'package:flutter/material.dart';
 
 class MangeUserScreen extends StatefulWidget {

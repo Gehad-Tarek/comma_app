@@ -1,5 +1,5 @@
-import 'package:comma_app/constants/constants.dart';
-import 'package:comma_app/shared/shared_widgets/field_components.dart';
+import '../../constants/constants.dart';
+import '../../shared/shared_widgets/field_components.dart';
 import 'package:flutter/material.dart';
 
 class SectionChangePawword extends StatefulWidget {

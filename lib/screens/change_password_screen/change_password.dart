@@ -1,4 +1,4 @@
-import 'package:comma_app/constants/constants.dart';
+import '../../constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 //import '../providers/change_password.dart';

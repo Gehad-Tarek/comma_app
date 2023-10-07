@@ -1,11 +1,11 @@
-import 'package:comma_app/constants/constants.dart';
-import 'package:comma_app/screens/Leads_Screen/Leads_screen.dart';
-import 'package:comma_app/screens/Reports_screen/Reports_screen.dart';
-import 'package:comma_app/screens/Requests_screen/Requests_screen.dart';
-import 'package:comma_app/screens/Supscription_screen/Supscription_screen.dart';
-import 'package:comma_app/screens/Tasks_screen/Tasks_screen.dart';
-import 'package:comma_app/screens/Users_screen/Users_screen.dart';
-import 'package:comma_app/screens/home_screen/home_screen_data.dart';
+import '../../constants/constants.dart';
+import '../Leads_Screen/Leads_screen.dart';
+import '../Reports_screen/Reports_screen.dart';
+import '../Requests_screen/Requests_screen.dart';
+import '../Supscription_screen/Supscription_screen.dart';
+import '../Tasks_screen/Tasks_screen.dart';
+import '../Users_screen/Users_screen.dart';
+import 'home_screen_data.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
